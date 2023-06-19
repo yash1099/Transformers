@@ -6,12 +6,16 @@ This project leverages state-of-the-art NLP models provided by Hugging Face, suc
 
 # Models and Datasets
 1. This project utilizes the following Hugging Face models and datasets:
-* BERT (Bidirectional Encoder Representations from Transformers)
-..* ALBERT (A Lite BERT for Self-supervised Learning of Language Representations)
-..* T5 (Text-to-Text Transfer Transformer)
-DistilBERT (Distilled BERT)
-Roberta (Robustly Optimized BERT Approach)
+ * BERT (Bidirectional Encoder Representations from Transformers)
+ * ALBERT (A Lite BERT for Self-supervised Learning of Language Representations)
+ * T5 (Text-to-Text Transfer Transformer)
+ * DistilBERT (Distilled BERT)
+ * Roberta (Robustly Optimized BERT Approach)
 
-2.The models are fine-tuned on various datasets, including but not limited to:
+2. The models are fine-tuned on various datasets, including but not limited to:
+ * SetFit/tweet_sentiment_extraction
+ * SpeedOfMagic/ontonotes_english
+ * ncbi_disease
+ * squad_v2
 
 For more information on these models and datasets, please refer to the Hugging Face documentation.
