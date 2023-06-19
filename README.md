@@ -6,7 +6,7 @@ This project leverages state-of-the-art NLP models provided by Hugging Face, suc
 
 # Models and Datasets
 1. This project utilizes the following Hugging Face models and datasets:
-..* BERT (Bidirectional Encoder Representations from Transformers)
+* BERT (Bidirectional Encoder Representations from Transformers)
 ..* ALBERT (A Lite BERT for Self-supervised Learning of Language Representations)
 ..* T5 (Text-to-Text Transfer Transformer)
 DistilBERT (Distilled BERT)
