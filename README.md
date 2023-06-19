@@ -28,13 +28,14 @@ fine-tune BERT models like Albert, RoBERTa, DistillBERT, BART on labeled dataset
 interpret the results. The dataset I used for this was https://huggingface.co/datasets/SetFit/tweet_sentiment_extraction
 
 2. Token Classification
-The token classification application performs Named Entity Recognition (NER) on text. It employs the ALBERT model and is trained on the CoNLL-2003 dataset. Given an input sentence, the model identifies and tags specific entities such as persons, organizations, and locations.
+Token classification involves labeling individual tokens within a text 
+sequence. This task is commonly used for named entity recognition, part-of-speech tagging, and other sequence labeling 
+tasks. I have worked on token classification using BERT models like BERT, ALBERT, RoBERTa learned about tokenlevel predictions and trained models to identify and classify tokens in various contexts. The dataset I used for this was: SpeedOfMagic/ontonotes_english and ncbi_disease.
 
 3. Question Answering
-The question answering application utilizes the T5 model and is trained on the SQuAD dataset. It enables the model to answer questions based on a given context or passage. Given a context and a question, the model generates the most relevant answer.
+ I delved into the techniques and methodologies involved in Question Answering using BERT. This includes fine-tuning BERT models like RoBERTa, T5, BigBird, Longformer on QA 
+datasets, understanding the format of input data (context and question), and generating precise answers.The data I used : https://huggingface.co/datasets/squad_v2 and squad
 
-4. Summarization
-The summarization application utilizes the DistilBERT model and is trained on the CNN/Daily Mail dataset. It can generate a summary of a given input text or article, condensing the content into a shorter, more concise form.
-
-5. Translation
-The translation application employs the Roberta model and is trained on the WMT dataset. It enables the translation of text between different languages. Given an input text and a desired target language, the model generates the translated output.
+4. Summarization abd Translation
+BERT variants have also been utilized for text summarization and translation tasks. I have explored techniques for abstractive summarization, where BERT models are fine-tuned to generate concise summaries of longer texts. Additionally, the BERT model I learned are T5, Pegasus, BigBirdPegasus can be applied to machine translation tasks, enabling the conversion of text between different languages. The dataset I used: https://www.kaggle.com/datasets/sunnysai12345/news-summary and Translation: 
+https://www.kaggle.com/datasets/dhruvildave/en-fr-translation-dataset
