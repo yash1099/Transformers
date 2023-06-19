@@ -1,0 +1,3 @@
+The data that i have used for token classification is from Huggingface dataset
+1.speedof MAgic: https://huggingface.co/datasets/SpeedOfMagic/ontonotes_english
+2.ncbi_disease:  https://huggingface.co/datasets/ncbi_disease
