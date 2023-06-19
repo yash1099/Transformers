@@ -39,3 +39,6 @@ datasets, understanding the format of input data (context and question), and gen
 4. Summarization abd Translation
 BERT variants have also been utilized for text summarization and translation tasks. I have explored techniques for abstractive summarization, where BERT models are fine-tuned to generate concise summaries of longer texts. Additionally, the BERT model I learned are T5, Pegasus, BigBirdPegasus can be applied to machine translation tasks, enabling the conversion of text between different languages. The dataset I used: https://www.kaggle.com/datasets/sunnysai12345/news-summary and Translation: 
 https://www.kaggle.com/datasets/dhruvildave/en-fr-translation-dataset
+
+# Contributing
+Contributions to this project are welcome. Feel free to open issues or submit pull requests to enhance existing features or add new functionalities.
